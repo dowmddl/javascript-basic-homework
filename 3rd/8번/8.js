@@ -36,3 +36,9 @@ const 튜터님들 = [
 최원장님의 담당반은 B입니다.
 이재상님의 담당반은 B입니다.
 */
+
+
+튜터님들.forEach(function (name) {
+  console.log(name.이름+"님의 담당반은"+name.담당반+"입니다.")
+})
+
